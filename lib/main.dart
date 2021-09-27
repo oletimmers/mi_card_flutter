@@ -44,11 +44,55 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Container(
+                  color: Colors.white,
+                  padding: EdgeInsets.all(10.0),
+                  margin: EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 25.0
+                  ),
                   child: Row(
                     children: [
                       Icon(
-                        Icons.add_shopping_cart,
-                        color: Colors.teal.shade900,
+                        Icons.phone,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width: 10.0,
+                      ),
+                      Text(
+                        '+31 6 81 909 601',
+                        style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: 'SourceSansPro',
+                          fontSize: 20.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  color: Colors.white,
+                  padding: EdgeInsets.all(10.0),
+                  margin: EdgeInsets.symmetric(
+                      vertical: 10.0,
+                      horizontal: 25.0
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width: 10.0,
+                      ),
+                      Text(
+                        'oletimmers@gmail.com',
+                        style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: 'SourceSansPro',
+                          fontSize: 20.0,
+                        ),
                       ),
                     ],
                   ),
